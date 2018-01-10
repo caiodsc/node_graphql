@@ -4,7 +4,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "build": "node gulpfile.js"
+    "gulp": "node gulpfile.js",
+    "dev": "nodemon --delay 5 dist/app.js"
   },
   "keywords": [],
   "author": "Caio Câmara",
@@ -23,6 +24,7 @@
     "@angular/cli": "^1.6.3",
     "gulp": "3.9.1",
     "gulp-clean": "0.3.2",
-    "gulp-typescript": "3.2.2"
+    "gulp-typescript": "3.2.2",
+    "nodemon": "1.12.0"
   }
 }
